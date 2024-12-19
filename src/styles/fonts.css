@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Bevellier-Regular";
+  src: url("../assets/fonts/Bevellier-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Bevellier-Regular.woff") format("woff"),
+    url("../assets/fonts/Bevellier-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bevellier-Medium";
+  src: url("../assets/fonts/Bevellier-Medium.woff2") format("woff2"),
+    url("../assets/fonts/Bevellier-Medium.woff") format("woff"),
+    url("../assets/fonts/Bevellier-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bevellier-Semibold";
+  src: url("../assets/fonts/Bevellier-Semibold.woff2") format("woff2"),
+    url("../assets/fonts/Bevellier-Semibold.woff") format("woff"),
+    url("../assets/fonts/Bevellier-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bevellier-Bold";
+  src: url("../assets/fonts/Bevellier-Bold.woff2") format("woff2"),
+    url("../assets/fonts/Bevellier-Bold.woff") format("woff"),
+    url("../assets/fonts/Bevellier-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bevellier-Black";
+  src: url("../assets/fonts/Bevellier-Black.woff2") format("woff2"),
+    url("../assets/fonts/Bevellier-Black.woff") format("woff"),
+    url("../assets/fonts/Bevellier-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
