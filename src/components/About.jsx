@@ -1,7 +1,23 @@
+import React from "react";
+
 export default function About() {
   return (
     <section className="w-full px-4 lg:px-8 py-8 lg:py-12 -mt-24 lg:-mt-10">
       <div className="max-w-[1800px] mx-auto bg-[#F7DF0B] rounded-2xl relative overflow-hidden border border-b-4 border-r-4 border-black">
+        {/* Left shooting star */}
+        <img
+          src="/src/assets/images/shooting-star.svg"
+          alt="Left Shooting Star"
+          className="absolute top-20 left-10 w-24 h-24 transform -rotate-45 animate-pulse"
+        />
+
+        {/* Right shooting star */}
+        <img
+          src="/src/assets/images/shooting-star.svg"
+          alt="Right Shooting Star"
+          className="absolute top-60 right-10 w-28 h-28 transform rotate-45 animate-pulse"
+        />
+
         <div className="px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16">
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
@@ -28,12 +44,12 @@ export default function About() {
                 </div>
                 <div className="space-y-4">
                   <p className="text-lg sm:text-xl text-gray-800 bevellier2 tracking-wide">
-                    What is $BANANA?&quot;: Introduce $BANANA as a light-hearted
+                    What is $BANANA?: Introduce $BANANA as a light-hearted
                     cryptocurrency focused on bringing fun to the crypto space.
                   </p>
                   <p className="text-lg sm:text-xl text-gray-800 bevellier2 tracking-wide">
-                    Why Choose $BANANA?&quot;: Mention its community-driven
-                    nature, focusing on bringing meme culture to the blockchain.
+                    Why Choose $BANANA?: Mention its community-driven nature,
+                    focusing on bringing meme culture to the blockchain.
                   </p>
                 </div>
                 <div className="pt-4">
