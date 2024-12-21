@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <section className="bevellier5 w-full px-6 z-50">
-      <nav className="max-w-[1920px] mx-auto flex items-center justify-between py-1 md:py-5 px-8 bg-white mt-4 rounded-3xl shadow-md border-black border-2 border-b-8 border-r-4">
+      <nav className="max-w-[1920px] mx-auto flex items-center justify-between py-1 md:py-5 lg:px-8 px-4 bg-white mt-4 rounded-3xl shadow-md border-black border-2 border-b-8 border-r-4">
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
@@ -81,7 +81,7 @@ const Navbar = () => {
         <div
           className={`${
             isMenuOpen ? "flex" : "hidden"
-          } lg:hidden absolute top-24 left-4 right-4 bg-white rounded-xl border-2 border-black border-b-8 border-r-4 p-6 flex-col space-y-6 shadow-md`}
+          } lg:hidden absolute top-24 left-4 right-4 bg-white rounded-xl border-2 border-black border-b- p-6 flex-col space-y-6 shadow-md z-20`}
         >
           <ul className="flex flex-col space-y-6">
             {navLinks.map((link) => (
@@ -116,7 +116,7 @@ const Navbar = () => {
                 className="w-8 h-8"
               />
             </button>
-            <button className="w-36 h-14 text-lg flex items-center tracking-wide justify-center bg-[#FCEF60] rounded-xl border-4 border-black">
+            <button className="w-36 h-14 text-lg flex items-center tracking-wide justify-center bg-[#FCEF60] rounded-xl border border-r-4 border-b-2 border-black">
               Buy now
             </button>
           </div>
