@@ -7,26 +7,16 @@ export default function SocialPopup() {
   const [mounted, setMounted] = useState(false);
 
   // prevent scrolling
-  const lockScroll = () => {
-    // current scroll position
-    const scrollPosition = window.pageYOffset;
-    // extra styles to prevent scrolling
-    document.body.style.overflow = "hidden";
-    document.body.style.position = "fixed";
-    document.body.style.top = `-${scrollPosition}px`;
-    document.body.style.width = "100%";
-  };
 
   // restore scrolling
   const unlockScroll = () => {
     // Remove extra styles
-    const scrollPosition = document.body.style.top;
+
     document.body.style.removeProperty("overflow");
     document.body.style.removeProperty("position");
     document.body.style.removeProperty("top");
     document.body.style.removeProperty("width");
     // Restore scroll position
-    window.scrollTo(0, parseInt(scrollPosition || "0", 10) * -1);
   };
 
   useEffect(() => {
@@ -38,7 +28,6 @@ export default function SocialPopup() {
         // delay before showing popup
         setTimeout(() => {
           setIsVisible(true);
-          lockScroll(); // scroll lock when popup shows
           // fade-in timeout
           setTimeout(() => {
             setMounted(true);

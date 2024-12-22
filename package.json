@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@studio-freight/react-lenis": "^0.0.47",
+    "motion": "^11.15.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

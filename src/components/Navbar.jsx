@@ -11,8 +11,18 @@ const Navbar = () => {
   ];
 
   return (
-    <section className="bevellier5 w-full px-6 z-50">
-      <nav className="max-w-[1920px] mx-auto flex items-center justify-between py-1 md:py-5 lg:px-8 px-4 bg-white mt-4 rounded-3xl shadow-md border-black border-2 border-b-8 border-r-4">
+    <nav
+      className={`
+        fixed top-0 left-0 right-0 z-50 transition-all duration-300 max-w-[1920px] mx-auto px-6
+      `}
+    >
+      <div
+        className="flex items-center justify-between py-1 md:py-4 lg:px-8 px-4
+          bg-white rounded-3xl shadow-md border-black border-2 mt-4
+          transition-all duration-300
+
+        "
+      >
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
@@ -81,7 +91,7 @@ const Navbar = () => {
         <div
           className={`${
             isMenuOpen ? "flex" : "hidden"
-          } lg:hidden absolute top-24 left-4 right-4 bg-white rounded-xl border-2 border-black border-b- p-6 flex-col space-y-6 shadow-md z-20`}
+          } lg:hidden absolute top-24 left-4 right-4 bg-white rounded-xl border-2 border-black border-b-4 p-6 flex-col space-y-6 shadow-md z-20`}
         >
           <ul className="flex flex-col space-y-6">
             {navLinks.map((link) => (
@@ -121,8 +131,8 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-      </nav>
-    </section>
+      </div>
+    </nav>
   );
 };
 
