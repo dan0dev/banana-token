@@ -1,8 +1,38 @@
-# React + Vite
+# 🍌 $BANANA Meme Coin Token Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Sample](https://i.imgur.com/s9ufZWd.png)
 
-Currently, two official plugins are available:
+A modern, animated React-based landing page for the $BANANA cryptocurrency token. This project showcases a playful and engaging user interface with smooth animations and interactive elements.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚠️ **Note**: This is an unfinished project and currently contains only the basic structure and some core components.
+
+## 🚀 Features
+
+- Responsive design with mobile-first approach
+- Smooth animations using Motion
+- Interactive UI elements with hover effects
+- Animated marquee slider
+- Contract address copy functionality
+- Intersection Observer-based scroll animations
+- Step-by-step buying guide
+
+## 💻 Stack
+
+- React - Vite
+- TailwindCSS
+- Motion
+- Lucide React
+- Intersection Observer API
+
+## 🔧 Installation
+
+```bash
+# Clone the repository
+git clone [repository-url]
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
