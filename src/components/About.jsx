@@ -81,7 +81,7 @@ const About = () => {
                 <div className="space-y-6 flex items-center">
                   <div className="w-full max-w-xl mx-auto">
                     <img
-                      src="../src/assets/images/bananaAbout.png"
+                      src="assets/images/bananaAbout.png"
                       alt="About $BANANA"
                       className="w-full h-auto rounded-lg"
                     />
@@ -94,7 +94,7 @@ const About = () => {
                   </h3>
                   <div className="max-w-2xl">
                     <img
-                      src="/src/assets/images/about-title.png"
+                      src="assets/images/about-title.png"
                       alt="BANANA Ecosystem"
                       className="w-full h-auto rounded-lg"
                     />
