@@ -81,7 +81,7 @@ const About = () => {
                 <div className="space-y-6 flex items-center">
                   <div className="w-full max-w-xl mx-auto">
                     <img
-                      src="/src/assets/images/bananaAbout.png"
+                      src="public/src/assets/images/bananaAbout.png"
                       alt="About $BANANA"
                       className="w-full h-auto rounded-lg"
                     />
