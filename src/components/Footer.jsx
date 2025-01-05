@@ -54,7 +54,7 @@ const Footer = () => {
             {/* Logo Section */}
             <div className="flex flex-col space-y-4 items-center sm:items-start">
               <img
-                src="src/assets/images/banana-logo.png"
+                src="assets/images/banana-logo.png"
                 alt="Banana Logo"
                 className="w-40 sm:w-48"
               />
@@ -98,7 +98,7 @@ const Footer = () => {
                   aria-label="Telegram"
                 >
                   <img
-                    src="src/assets/images/telegram.svg"
+                    src="assets/images/telegram.svg"
                     alt="Telegram icon"
                     className="w-6 h-6"
                   />
@@ -108,7 +108,7 @@ const Footer = () => {
                   aria-label="X (formerly Twitter)"
                 >
                   <img
-                    src="src/assets/images/x.svg"
+                    src="assets/images/x.svg"
                     alt="X icon"
                     className="w-6 h-6"
                   />

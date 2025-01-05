@@ -70,7 +70,7 @@ const About = () => {
           }`}
         >
           <img
-            src="/src/assets/images/shooting-star.svg"
+            src="assets/images/shooting-star.svg"
             alt="Left Shooting Star"
             className="absolute top-20 left-10 w-24 h-24 transform -rotate-45 animate-pulse"
           />

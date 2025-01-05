@@ -175,7 +175,7 @@ export default function Hero() {
                       WELCOME TO $BANANA TOKEN
                     </h2>
                     <motion.img
-                      src="/src/assets/images/banana-text.png"
+                      src="assets/images/banana-text.png"
                       alt="Banana Token"
                       className="mx-auto lg:mx-0"
                       whileHover={{ scale: 1.05 }}
@@ -244,7 +244,7 @@ export default function Hero() {
                       whileTap={{ scale: 0.95 }}
                     >
                       <img
-                        src="/src/assets/images/dex-screener.svg"
+                        src="assets/images/dex-screener.svg"
                         alt="Dex Screener"
                         className="w-6 h-6"
                       />
@@ -260,7 +260,7 @@ export default function Hero() {
                   transition={{ duration: 0.8, delay: 0.5 }}
                 >
                   <motion.img
-                    src="src/assets/images/banana.png"
+                    src="assets/images/banana.png"
                     alt="Banana Character"
                     className="w-[700px] xl:w-[900px] 2xl:w-[1100px] h-auto object-contain"
                     animate={{ y: [-20, 20] }}

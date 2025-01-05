@@ -26,7 +26,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex-shrink-0">
           <img
-            src="src/assets/images/banana-logo.png"
+            src="assets/images/banana-logo.png"
             alt="Banana Logo"
             className="w-32 sm:w-48"
           />
@@ -66,7 +66,7 @@ const Navbar = () => {
               aria-label="Telegram"
             >
               <img
-                src="src/assets/images/telegram.svg"
+                src="assets/images/telegram.svg"
                 alt="Telegram icon"
                 className="w-8 h-8"
               />
@@ -75,11 +75,7 @@ const Navbar = () => {
               className="w-14 h-14 flex items-center justify-center bg-[#FCEF60] rounded-lg border border-black border-b-2 hover:border-b-4 hover:border-r-2 hover:bg-[#fff15c] transition-all duration-250"
               aria-label="X (formerly Twitter)"
             >
-              <img
-                src="src/assets/images/x.svg"
-                alt="X icon"
-                className="w-8 h-8"
-              />
+              <img src="assets/images/x.svg" alt="X icon" className="w-8 h-8" />
             </button>
             <button className="w-36 h-14 text-lg flex items-center tracking-wide justify-center bg-[#FCEF60] rounded-xl border border-b-2 border-r-2 border-black hover:border-b-4 hover:border-r-2 transition-all duration-250">
               Buy now
@@ -111,7 +107,7 @@ const Navbar = () => {
               aria-label="Telegram"
             >
               <img
-                src="src/assets/images/telegram.svg"
+                src="assets/images/telegram.svg"
                 alt="Telegram icon"
                 className="w-8 h-8"
               />
@@ -120,11 +116,7 @@ const Navbar = () => {
               className="w-14 h-14 flex items-center justify-center bg-[#FCEF60] rounded-lg border border-black border-b-2 hover:border-b-4 hover:border-r-2 hover:bg-[#fff15c] transition-all duration-200"
               aria-label="X (formerly Twitter)"
             >
-              <img
-                src="src/assets/images/x.svg"
-                alt="X icon"
-                className="w-8 h-8"
-              />
+              <img src="assets/images/x.svg" alt="X icon" className="w-8 h-8" />
             </button>
             <button className="w-36 h-14 text-lg flex items-center tracking-wide justify-center bg-[#FCEF60] rounded-xl border border-r-4 border-b-2 border-black">
               Buy now
