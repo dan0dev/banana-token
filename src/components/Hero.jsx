@@ -121,8 +121,7 @@ export default function Hero() {
                     <div className="flex overflow-hidden items-center whitespace-nowrap py-3 px-16 font-medium2 tracking-widest">
                       <div className="animate-marquee inline-flex items-center gap-8">
                         <span className="inline-flex items-center gap-2 text-lg text-gray-800">
-                          <Rocket className="h-5 w-5" /> Join the $BANANA
-                          Revolution!
+                          <Rocket className="h-5 w-5" /> Join the $BANANA Revolution!
                         </span>
                         <span className="inline-flex items-center gap-2 text-lg text-gray-800">
                           <Sparkles className="h-5 w-5" /> Memes + Crypto = Fun
@@ -131,8 +130,7 @@ export default function Hero() {
                           <Star className="h-5 w-5" /> Learn, Laugh, HODL!
                         </span>
                         <span className="inline-flex items-center gap-2 text-lg text-gray-800">
-                          <Rocket className="h-5 w-5" /> Join the $BANANA
-                          Revolution!
+                          <Rocket className="h-5 w-5" /> Join the $BANANA Revolution!
                         </span>
                         <span className="inline-flex items-center gap-2 text-lg text-gray-800">
                           <Sparkles className="h-5 w-5" /> Memes + Crypto = Fun
@@ -144,8 +142,7 @@ export default function Hero() {
                       {/* Duplicate for seamless loop */}
                       <div className="animate-marquee inline-flex items-center gap-8">
                         <span className="inline-flex items-center gap-2 text-lg text-gray-800">
-                          <Rocket className="h-5 w-5" /> Join the $BANANA
-                          Revolution!
+                          <Rocket className="h-5 w-5" /> Join the $BANANA Revolution!
                         </span>
                         <span className="inline-flex items-center gap-2 text-lg text-gray-800">
                           <Sparkles className="h-5 w-5" /> Memes + Crypto = Fun
@@ -154,8 +151,7 @@ export default function Hero() {
                           <Star className="h-5 w-5" /> Learn, Laugh, HODL!
                         </span>
                         <span className="inline-flex items-center gap-2 text-lg text-gray-800">
-                          <Rocket className="h-5 w-5" /> Join the $BANANA
-                          Revolution!
+                          <Rocket className="h-5 w-5" /> Join the $BANANA Revolution!
                         </span>
                         <span className="inline-flex items-center gap-2 text-lg text-gray-800">
                           <Sparkles className="h-5 w-5" /> Memes + Crypto = Fun
@@ -167,25 +163,15 @@ export default function Hero() {
                     </div>
                   </motion.div>
 
-                  <motion.div
-                    variants={itemVariants}
-                    className="space-y-6 font-medium2"
-                  >
+                  <motion.div variants={itemVariants} className="space-y-6 font-medium2">
                     <h2 className="text-red-500 font-semibold tracking-[1rem] text-xl lg:text-xl">
                       WELCOME TO $BANANA TOKEN
                     </h2>
-                    <motion.img
-                      src="assets/images/banana-text.png"
-                      alt="Banana Token"
-                      className="mx-auto lg:mx-0"
-                      whileHover={{ scale: 1.05 }}
-                      transition={{ type: "spring", stiffness: 300 }}
-                    />
+                    <motion.img src="assets/images/banana-text.png" alt="Banana Token" className="mx-auto lg:mx-0" />
                     <p className="text-2xl text-gray-900 max-w-4xl mx-auto lg:mx-0">
-                      Welcome to $BANANA - The Meme Coin that&apos;s here to
-                      spread laughter and unite the crypto community. Join our
-                      vibrant community of banana lovers and crypto enthusiasts
-                      as we embark on this exciting journey together.
+                      Welcome to $BANANA - The Meme Coin that&apos;s here to spread laughter and unite the crypto
+                      community. Join our vibrant community of banana lovers and crypto enthusiasts as we embark on this
+                      exciting journey together.
                     </p>
                   </motion.div>
 
@@ -196,28 +182,16 @@ export default function Hero() {
                     {/* Counter components */}
                   </motion.div>
 
-                  <motion.div
-                    variants={itemVariants}
-                    className="w-full h-1 bg-[#E4B700] my-8 rounded-full shadow-md"
-                  />
+                  <motion.div variants={itemVariants} className="w-full h-1 bg-[#E4B700] my-8 rounded-full shadow-md" />
 
                   <motion.div variants={itemVariants} className="space-y-6">
-                    <p className="font-medium2 text-lg text-gray-800 tracking-wide">
-                      CONTRACT ADDRESS
-                    </p>
-                    <motion.div
-                      className="bg-[#FFF6B5] rounded-xl border border-b-8 border-black px-4"
-                      whileHover={{ scale: 1.02 }}
-                      transition={{ type: "spring", stiffness: 300 }}
-                    >
+                    <p className="font-medium2 text-lg text-gray-800 tracking-wide">CONTRACT ADDRESS</p>
+                    <motion.div className="bg-[#FFF6B5] rounded-xl border border-b-8 border-black px-4">
                       <div className="flex items-center gap-x-4 py-2">
-                        <code className="text-base flex-1 truncate px-2">
-                          {contractAddress}
-                        </code>
+                        <code className="text-base flex-1 truncate px-2">{contractAddress}</code>
                         <motion.button
                           onClick={handleCopy}
                           className="inline-flex items-center gap-2 bg-[#FBEF60] rounded-xl border border-b-4 border-black px-8 py-3 font-semibold tracking-wide hover:bg-white transition-colors text-lg shrink-0"
-                          whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
                         >
                           <Copy className="h-5 w-5" />
@@ -233,21 +207,15 @@ export default function Hero() {
                   >
                     <motion.button
                       className="bg-[#FBEF60] rounded-xl border border-b-4 border-black px-8 py-3 hover:bg-white transition-colors"
-                      whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
                       BUY $BANANA
                     </motion.button>
                     <motion.button
                       className="bg-[#FFF6B5] rounded-xl border border-b-4 border-black px-8 py-3 hover:bg-white transition-colors flex items-center gap-2"
-                      whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
-                      <img
-                        src="assets/images/dex-screener.svg"
-                        alt="Dex Screener"
-                        className="w-6 h-6"
-                      />
+                      <img src="assets/images/dex-screener.svg" alt="Dex Screener" className="w-6 h-6" />
                       DEX SCREENER
                     </motion.button>
                   </motion.div>
